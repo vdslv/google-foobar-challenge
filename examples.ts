@@ -7,14 +7,14 @@ function elevatorMaitenance(arr) {
 
         for(let i=0;i < maxLength;i++) {
         
-        let vivod = helper(+val1[i],+val2[i]);
-            if(vivod === 1) {
-            return 1;
-            break;
-        } else if (vivod === -1) {
-            return -1;
-            break;
-        }
+            let vivod = helper(+val1[i],+val2[i]);
+                if(vivod === 1) {
+                return 1;
+                break;
+            } else if (vivod === -1) {
+                return -1;
+                break;
+            }
         }
     })
 }
