@@ -5,7 +5,6 @@ function elevatorMaitenance(arr) {
         let val2 = b.split('.');
         let maxLength = val1.length > val2.length ? val1.length : val2.length;
 
-
         for(let i=0;i < maxLength;i++) {
         
         let vivod = helper(+val1[i],+val2[i]);
